@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   
   s.ios.deployment_target = '9.3'
 
-  s.source_files = 'VRiX_iOS/Classes/*s*/*'
+  s.source_files = 'VRiX_iOS/Classes/**/*'
   
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   
