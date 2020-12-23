@@ -45,6 +45,49 @@ VMAP, VAST VRiX
                 }];
 }
 ```
+#### init (Swift)
+```Swift
+override func viewDidLoad() {
+    super.viewDidLoad()
+    // Do any additional setup after loading the view.
+
+//    self.vrixManager = VRiXManager(key: <#T##String!#>, hashKey: <#T##String!#>)
+    self.vrixManager = VRiXManager(key: VRIX_KEY, hashKey: VRIX_HASHKEY)
+
+    self.isFetchedData = false
+    self.progressView .setProgress(0, animated: false)
+}
+
+override func viewWillAppear(_ animated: Bool) {
+    super.viewWillAppear(animated)
+
+    DispatchQueue.main.async {
+        self.playButtonTouched(nil)
+    }
+}
+
+@IBAction func playButtonTouched(_ sender: Any?) {
+    if self.vrixManager != nil && self.isFetchedData == false {
+        self.registAdNotification()
+        let urlString: NSString = VRIX_URL as NSString
+        let encodedUrl: NSString = urlString.replacingOccurrences(of: "|", with: "|".addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed) ?? VRIX_URL) as NSString
+        let encodedUrls: String = encodedUrl as String
+//            self.vrixManager?.fetchVRiX(<#T##url: URL!##URL!#>, completionHandler: <#T##((Bool, Error?) -> Void)!##((Bool, Error?) -> Void)!##(Bool, Error?) -> Void#>)
+        self.vrixManager?.fetchVRiX(URL.init(string: encodedUrls), completionHandler: { (success, error) in
+            self.isFetchedData = true;
+            if success == true {
+                self.playPreroll()
+            }
+            else {
+                self.errorHandler(error: error)
+            }
+        })
+    }
+    else {
+        //TODO: 재생 토글
+    }
+}
+```
 #### Play AD
 1. Preroll & OutStream
 
@@ -64,6 +107,29 @@ VMAP, VAST VRiX
     }
 }
 ```
+1.1 Preroll & OutStream (Swift)
+
+```Swift
+func playPreroll() {
+    var numberOfPreroll: NSInteger? = 0
+    numberOfPreroll = self.vrixManager?.prerollCount()
+
+    if let numOfPreroll = numberOfPreroll {
+        if numOfPreroll > 0 {
+            // Play Preroll
+//                self.vrixManager?.preroll(at: <#T##UIView!#>, completionWithResult: <#T##((String?, Int, [[AnyHashable : Any]]?) -> Void)!##((String?, Int, [[AnyHashable : Any]]?) -> Void)!##(String?, Int, [[AnyHashable : Any]]?) -> Void#>)
+            self.vrixManager?.preroll(at: self.adView, completionWithResult: { (adNames ,count, userInfos) in
+
+                //TODO: preroll광고 끝난후에 처리할 내용을 구현
+            })
+        }
+    }
+    else {
+        //TODO: 광고가 없을때 처리
+    }
+}
+```
+
 2. Midroll
 ```objc
 - (void) playMidroll
@@ -94,6 +160,31 @@ VMAP, VAST VRiX
     }
 }
 ```
+2.1 Midroll (Swift)
+```Swift
+func playMidroll() {
+    let currentTime: Float64! = CMTimeGetSeconds(self.player?.currentTime() ?? CMTime.zero)
+    if let midrollCount = self.vrixManager?.midrollCount() {
+        if midrollCount > 0 {
+//            self.vrixManager?.midroll(at: <#T##UIView!#>, timeOffset: <#T##TimeInterval#>, progressHandler: <#T##((Bool, GXAdBreakType, NSAttributedString?) -> Void)!##((Bool, GXAdBreakType, NSAttributedString?) -> Void)!##(Bool, GXAdBreakType, NSAttributedString?) -> Void#>, completionHandler: <#T##((GXAdBreakType) -> Void)!##((GXAdBreakType) -> Void)!##(GXAdBreakType) -> Void#>)
+
+            self.vrixManager?.midroll(at: self.adView, timeOffset: currentTime, progressHandler: { (start, breakType, message) in
+
+                if message != nil && breakType == GXAdBreakTypelinear {
+                    //TODO: show message
+                }
+
+                if start == true {
+                    //TODO: 광고가 시작되었을때 처리
+                }
+
+            }, completionHandler: { (breakType) in
+                //TODO: midroll광고가 완료되었때 처리 
+            })
+        }
+    }
+}
+```
 
 3. Postroll
 ```objc
@@ -106,9 +197,32 @@ VMAP, VAST VRiX
         }];
 }
 ```
+3.1 Postroll (Swift)
+```Swift
+func playPostroll() {
+    if let numberOfPostroll = self.vrixManager?.postrollCount() {
+        if numberOfPostroll > 0 {
+//            self.vrixManager?.postroll(at: <#T##UIView!#>, completionHandler: <#T##((Bool, Any?) -> Void)!##((Bool, Any?) -> Void)!##(Bool, Any?) -> Void#>)
+            self.vrixManager?.postroll(at: self.adView, completionHandler: { (success, userInfo) in
+                //TODO:postroll광고 끝난후에 처리할 내용을 구현
+            })
+        }
+    }
+    else {
+        //TODO:postroll광고 없을 때 처리할 내용을 구현
+    }
+}
+```
+
 4. Stop AD
 ```objc
 [self.vrixMananger stopCurrentAD];
+```
+4.1 Stop AD (Swift)
+```Swift
+if let vrixMgr = self.vrixManager {
+    vrixMgr.stopCurrentAD()
+}
 ```
 
 5. AD Player의 상태변화에 따른 Notfication 제공 (Get Current AD druation,  current time 사용법)
@@ -204,6 +318,61 @@ VMAP, VAST VRiX
 - (void) AdFailToPlay:(id)sender
 {
     NSLog(@"AD load fail");
+}
+```
+5.1 AD Player의 상태변화에 따른 Notfication 제공 (Get Current AD druation,  current time 사용법) (Swift)
+```Swift
+extension Notification.Name {
+    public static let GTADPlayerDidPlayEndTimeNotification: Notification.Name = Notification.Name.init(NSNotification.Name.GTADPlayerDidPlayToEndTime.rawValue)
+    public static let GTADPlayerStopByUserNotification: Notification.Name = Notification.Name.init(NSNotification.Name.GTADPlayerStopByUser.rawValue)
+    public static let GTADPlayerPrepareToPlayNotification: Notification.Name = Notification.Name.init(NSNotification.Name.GTADPlayerPrepareToPlay.rawValue)
+    public static let GTADPlayerReadyToPlayNotification: Notification.Name = Notification.Name.init(NSNotification.Name.GTADPlayerReadyToPlay.rawValue)
+    public static let GTADPlayerDidPlayBackChangeNotification: Notification.Name = Notification.Name.init(NSNotification.Name.GTADPlayerDidPlayBackChange.rawValue)
+    public static let GTADPlayerDidFailToPlayNotification: Notification.Name = Notification.Name.init(NSNotification.Name.GTADPlayerDidFailToPlay.rawValue)
+}
+
+func registAdNotification () {
+    self.unregistAdNotification()
+
+    NotificationCenter.default.addObserver(self, selector: #selector(AdPreparePlay(sender:)), name: Notification.Name.GTADPlayerPrepareToPlay, object: nil)
+    NotificationCenter.default.addObserver(self, selector: #selector(AdReadyToPlay(sender:)), name: Notification.Name.GTADPlayerReadyToPlay, object: nil)
+    NotificationCenter.default.addObserver(self, selector: #selector(AdPlayBackDidChange(sender:)), name: Notification.Name.GTADPlayerDidPlayBackChange, object: nil)
+    NotificationCenter.default.addObserver(self, selector: #selector(AdPlayToEnd(sender:)), name: Notification.Name.GTADPlayerDidPlayToEndTime, object: nil)
+    NotificationCenter.default.addObserver(self, selector: #selector(AdStop(sender:)), name: Notification.Name.GTADPlayerStopByUser, object: nil)
+    NotificationCenter.default.addObserver(self, selector: #selector(AdFailToPlay(sender:)), name: Notification.Name.GTADPlayerDidFailToPlay, object: nil)
+}
+
+func unregistAdNotification () {
+    NotificationCenter.default.removeObserver(self, name:Notification.Name.GTADPlayerPrepareToPlay, object: nil)
+    NotificationCenter.default.removeObserver(self, name:Notification.Name.GTADPlayerReadyToPlay, object: nil)
+    NotificationCenter.default.removeObserver(self, name:Notification.Name.GTADPlayerDidPlayBackChange, object: nil)
+    NotificationCenter.default.removeObserver(self, name:Notification.Name.GTADPlayerDidPlayToEndTime, object: nil)
+    NotificationCenter.default.removeObserver(self, name:Notification.Name.GTADPlayerStopByUser, object: nil)
+    NotificationCenter.default.removeObserver(self, name:Notification.Name.GTADPlayerDidFailToPlay, object: nil)
+}
+
+@objc func AdPreparePlay(sender: Any?) {
+    print("AdPreparePlay")
+}
+
+@objc func AdReadyToPlay(sender: Any?) {
+    print("Ready to Play AD")
+}
+
+@objc func AdPlayBackDidChange(sender: Any?) {
+    print("AD is Playing (Duration: %0.3f, playtime: %0.3f", self.vrixManager?.getCurrentAdDuration() ?? CMTime.zero, self.vrixManager?.getCurrentAdPlaytime() ?? CMTime.zero)
+}
+
+@objc func AdStop(sender: Any?) {
+    print("Maybe skipped by User...")
+}
+
+@objc func AdPlayToEnd(sender: Any?) {
+    print("AD Completed!!")
+}
+
+@objc func AdFailToPlay(sender: Any?) {
+    print("AD load failed!!")
 }
 ```
 
