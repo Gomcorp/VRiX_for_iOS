@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'VRiX_iOS'
-  s.version          = '0.1.1'
+  s.version          = '0.1.0'
   s.summary          = '브릭스 광고 출력 라이브러리.'
 
 # This description is used to generate tags and improve search results.
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   
   s.ios.deployment_target = '9.3'
 
-  s.source_files = 'VRiX_iOS/Classes/**/*.h'
+  s.source_files = 'VRiX_iOS/Classes/*s*/*'
   
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   
