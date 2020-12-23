@@ -282,7 +282,7 @@ completionHandler:(void (^)(void))handler;
 ```
 ## License
 
-Gomcorp – (https://www.gomcorp.com/) – kuyoungchang@gomcorp.com
+Gomcorp – (https://www.gomcorp.com/) – gurwnsdl1@gomcorp.com
 
 Copyright © 2017 Gomcorp.
 
