@@ -19,11 +19,11 @@ Pod::Spec.new do |s|
 
   s.description      = "브릭스 광고 라이브러리, VMAP, VAST"
 
-  s.homepage         = 'https://github.com/gombridge@gmail.com/VRiX_iOS'
+  s.homepage         = 'https://github.com/Gomcorp/VRiX_for_iOS'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'gombridge@gmail.com' => 'gurwnsdl1@gomcorp.com' }
-  s.source           = { :git => 'https://github.com/gombridge@gmail.com/VRiX_iOS.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Gomcorp/VRiX_for_iOS.git', :tag => s.version.to_s }
   
   s.ios.deployment_target = '9.3'
 
