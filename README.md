@@ -31,7 +31,7 @@ VRiX is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'VRiX'
+pod 'VRiX_iOS'
 ```
 
 ## Usage example
@@ -123,7 +123,7 @@ Gomcorp, kuyoungchang@gretech.com
 
 ## License
 
-Gomcorp – (https://www.gomcorp.com/) – kuyoungchang@gomcorp.com
+Gomcorp – (https://www.gomcorp.com/) – gurwnsdl1@gomcorp.com
 
 Copyright © 2017 Gomcorp.
 
