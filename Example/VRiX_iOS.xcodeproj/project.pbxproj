@@ -24,6 +24,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		84C12692CB9555FD6DB37083 /* Pods_VRiX_iOS_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13C258582329F0B76FECE136 /* Pods_VRiX_iOS_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		F76C91EB2592CACD002C0AB0 /* GXVideoPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F76C91E92592CACD002C0AB0 /* GXVideoPlayerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,14 +60,16 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7173EF854CC6826DF7C682B1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7173EF854CC6826DF7C682B1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C4B54758AC5D441EB20BA72 /* Pods-VRiX_iOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VRiX_iOS_Example.debug.xcconfig"; path = "Target Support Files/Pods-VRiX_iOS_Example/Pods-VRiX_iOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9A89B8887A7A102D9C17FA92 /* Pods-VRiX_iOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VRiX_iOS_Tests.release.xcconfig"; path = "Target Support Files/Pods-VRiX_iOS_Tests/Pods-VRiX_iOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D1F72BA44161267FFA8771FC /* Pods-VRiX_iOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VRiX_iOS_Tests.debug.xcconfig"; path = "Target Support Files/Pods-VRiX_iOS_Tests/Pods-VRiX_iOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DA1A14CF27F1244C899DA7FA /* VRiX_iOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = VRiX_iOS.podspec; path = ../VRiX_iOS.podspec; sourceTree = "<group>"; };
+		DA1A14CF27F1244C899DA7FA /* VRiX_iOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = VRiX_iOS.podspec; path = ../VRiX_iOS.podspec; sourceTree = "<group>"; };
 		E1180F7193E32F1F3A1AEE76 /* Pods-VRiX_iOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VRiX_iOS_Example.release.xcconfig"; path = "Target Support Files/Pods-VRiX_iOS_Example/Pods-VRiX_iOS_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FFF96965F7C8FDE35CB6C4A9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F76C91E92592CACD002C0AB0 /* GXVideoPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXVideoPlayerView.m; sourceTree = "<group>"; };
+		F76C91EA2592CACD002C0AB0 /* GXVideoPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXVideoPlayerView.h; sourceTree = "<group>"; };
+		FFF96965F7C8FDE35CB6C4A9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +138,8 @@
 				6003F59C195388D20070C39A /* VRIXAppDelegate.h */,
 				6003F59D195388D20070C39A /* VRIXAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				F76C91EA2592CACD002C0AB0 /* GXVideoPlayerView.h */,
+				F76C91E92592CACD002C0AB0 /* GXVideoPlayerView.m */,
 				6003F5A5195388D20070C39A /* VRIXViewController.h */,
 				6003F5A6195388D20070C39A /* VRIXViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
@@ -193,7 +198,6 @@
 				D1F72BA44161267FFA8771FC /* Pods-VRiX_iOS_Tests.debug.xcconfig */,
 				9A89B8887A7A102D9C17FA92 /* Pods-VRiX_iOS_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -249,6 +253,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "gombridge@gmail.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 9Y68NLX6DA;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -259,6 +266,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -383,6 +391,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F76C91EB2592CACD002C0AB0 /* GXVideoPlayerView.m in Sources */,
 				6003F59E195388D20070C39A /* VRIXAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* VRIXViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
@@ -513,6 +522,7 @@
 			baseConfigurationReference = 8C4B54758AC5D441EB20BA72 /* Pods-VRiX_iOS_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9Y68NLX6DA;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VRiX_iOS/VRiX_iOS-Prefix.pch";
 				INFOPLIST_FILE = "VRiX_iOS/VRiX_iOS-Info.plist";
@@ -529,6 +539,7 @@
 			baseConfigurationReference = E1180F7193E32F1F3A1AEE76 /* Pods-VRiX_iOS_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9Y68NLX6DA;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VRiX_iOS/VRiX_iOS-Prefix.pch";
 				INFOPLIST_FILE = "VRiX_iOS/VRiX_iOS-Info.plist";

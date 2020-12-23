@@ -1,0 +1,22 @@
+{
+  "name": "VRiX_iOS",
+  "version": "0.1.0",
+  "summary": "A short description of VRiX_iOS.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/gombridge@gmail.com/VRiX_iOS",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "gombridge@gmail.com": "gurwnsdl1@gomcorp.com"
+  },
+  "source": {
+    "git": "https://github.com/gombridge@gmail.com/VRiX_iOS.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "VRiX_iOS/Classes/**/*"
+}

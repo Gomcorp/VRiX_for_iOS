@@ -1,0 +1,6 @@
+framework module VRiX_iOS {
+  umbrella header "VRiX_iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - VRiX_iOS (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - VRiX_iOS (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  VRiX_iOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  VRiX_iOS: 3b6824d7c047f1c76cd90c7f261c0b5660b7a6dd
+
+PODFILE CHECKSUM: 52942bdec17f6e604b88aa878fecb7c0b7e639ce
+
+COCOAPODS: 1.10.0
