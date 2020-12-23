@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E151CFEB258212190022AAAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E151CFEA258212190022AAAF /* AppDelegate.swift */; };
+		E151CFED258212190022AAAF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E151CFEC258212190022AAAF /* SceneDelegate.swift */; };
+		E151CFEF258212190022AAAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E151CFEE258212190022AAAF /* ViewController.swift */; };
+		E151CFF2258212190022AAAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E151CFF0258212190022AAAF /* Main.storyboard */; };
+		E151CFF5258212190022AAAF /* VRIX_For_iOS_Swift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E151CFF3258212190022AAAF /* VRIX_For_iOS_Swift.xcdatamodeld */; };
+		E151CFF72582121D0022AAAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E151CFF62582121D0022AAAF /* Assets.xcassets */; };
+		E151CFFA2582121D0022AAAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E151CFF82582121D0022AAAF /* LaunchScreen.storyboard */; };
+		E151D0052582121D0022AAAF /* VRIX_For_iOS_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E151D0042582121D0022AAAF /* VRIX_For_iOS_SwiftTests.swift */; };
+		E151D0102582121D0022AAAF /* VRIX_For_iOS_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E151D00F2582121D0022AAAF /* VRIX_For_iOS_SwiftUITests.swift */; };
+		E1A478DB2589ECC300681C05 /* GXXVideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A478DA2589ECC300681C05 /* GXXVideoPlayerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E151D0012582121D0022AAAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E151CFDF258212190022AAAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E151CFE6258212190022AAAF;
+			remoteInfo = VRIX_For_iOS_Swift;
+		};
+		E151D00C2582121D0022AAAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E151CFDF258212190022AAAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E151CFE6258212190022AAAF;
+			remoteInfo = VRIX_For_iOS_Swift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E151CFE7258212190022AAAF /* VRIX_For_iOS_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VRIX_For_iOS_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E151CFEA258212190022AAAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E151CFEC258212190022AAAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E151CFEE258212190022AAAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E151CFF1258212190022AAAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E151CFF4258212190022AAAF /* VRIX_For_iOS_Swift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VRIX_For_iOS_Swift.xcdatamodel; sourceTree = "<group>"; };
+		E151CFF62582121D0022AAAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E151CFF92582121D0022AAAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E151CFFB2582121D0022AAAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E151D0002582121D0022AAAF /* VRIX_For_iOS_SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VRIX_For_iOS_SwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E151D0042582121D0022AAAF /* VRIX_For_iOS_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VRIX_For_iOS_SwiftTests.swift; sourceTree = "<group>"; };
+		E151D0062582121D0022AAAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E151D00B2582121D0022AAAF /* VRIX_For_iOS_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VRIX_For_iOS_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E151D00F2582121D0022AAAF /* VRIX_For_iOS_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VRIX_For_iOS_SwiftUITests.swift; sourceTree = "<group>"; };
+		E151D0112582121D0022AAAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E151D029258370390022AAAF /* VRIX_For_iOS_Swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "VRIX_For_iOS_Swift-Bridging-Header.h"; path = "VRIX_For_iOS_Swift/VRIX_For_iOS_Swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		E1A478DA2589ECC300681C05 /* GXXVideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GXXVideoPlayerView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E151CFE4258212190022AAAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E151CFFD2582121D0022AAAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E151D0082582121D0022AAAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53D39A50D3D07C7DBC88F39F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E151CFDE258212190022AAAF = {
+			isa = PBXGroup;
+			children = (
+				E151D029258370390022AAAF /* VRIX_For_iOS_Swift-Bridging-Header.h */,
+				E151CFE9258212190022AAAF /* VRIX_For_iOS_Swift */,
+				E151D0032582121D0022AAAF /* VRIX_For_iOS_SwiftTests */,
+				E151D00E2582121D0022AAAF /* VRIX_For_iOS_SwiftUITests */,
+				E151CFE8258212190022AAAF /* Products */,
+				53D39A50D3D07C7DBC88F39F /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		E151CFE8258212190022AAAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E151CFE7258212190022AAAF /* VRIX_For_iOS_Swift.app */,
+				E151D0002582121D0022AAAF /* VRIX_For_iOS_SwiftTests.xctest */,
+				E151D00B2582121D0022AAAF /* VRIX_For_iOS_SwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E151CFE9258212190022AAAF /* VRIX_For_iOS_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				E151CFEA258212190022AAAF /* AppDelegate.swift */,
+				E151CFEC258212190022AAAF /* SceneDelegate.swift */,
+				E151CFEE258212190022AAAF /* ViewController.swift */,
+				E1A478DA2589ECC300681C05 /* GXXVideoPlayerView.swift */,
+				E151CFF0258212190022AAAF /* Main.storyboard */,
+				E151CFF62582121D0022AAAF /* Assets.xcassets */,
+				E151CFF82582121D0022AAAF /* LaunchScreen.storyboard */,
+				E151CFFB2582121D0022AAAF /* Info.plist */,
+				E151CFF3258212190022AAAF /* VRIX_For_iOS_Swift.xcdatamodeld */,
+			);
+			path = VRIX_For_iOS_Swift;
+			sourceTree = "<group>";
+		};
+		E151D0032582121D0022AAAF /* VRIX_For_iOS_SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				E151D0042582121D0022AAAF /* VRIX_For_iOS_SwiftTests.swift */,
+				E151D0062582121D0022AAAF /* Info.plist */,
+			);
+			path = VRIX_For_iOS_SwiftTests;
+			sourceTree = "<group>";
+		};
+		E151D00E2582121D0022AAAF /* VRIX_For_iOS_SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E151D00F2582121D0022AAAF /* VRIX_For_iOS_SwiftUITests.swift */,
+				E151D0112582121D0022AAAF /* Info.plist */,
+			);
+			path = VRIX_For_iOS_SwiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E151CFE6258212190022AAAF /* VRIX_For_iOS_Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E151D0142582121D0022AAAF /* Build configuration list for PBXNativeTarget "VRIX_For_iOS_Swift" */;
+			buildPhases = (
+				E151CFE3258212190022AAAF /* Sources */,
+				E151CFE4258212190022AAAF /* Frameworks */,
+				E151CFE5258212190022AAAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VRIX_For_iOS_Swift;
+			productName = VRIX_For_iOS_Swift;
+			productReference = E151CFE7258212190022AAAF /* VRIX_For_iOS_Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E151CFFF2582121D0022AAAF /* VRIX_For_iOS_SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E151D0172582121D0022AAAF /* Build configuration list for PBXNativeTarget "VRIX_For_iOS_SwiftTests" */;
+			buildPhases = (
+				E151CFFC2582121D0022AAAF /* Sources */,
+				E151CFFD2582121D0022AAAF /* Frameworks */,
+				E151CFFE2582121D0022AAAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E151D0022582121D0022AAAF /* PBXTargetDependency */,
+			);
+			name = VRIX_For_iOS_SwiftTests;
+			productName = VRIX_For_iOS_SwiftTests;
+			productReference = E151D0002582121D0022AAAF /* VRIX_For_iOS_SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E151D00A2582121D0022AAAF /* VRIX_For_iOS_SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E151D01A2582121D0022AAAF /* Build configuration list for PBXNativeTarget "VRIX_For_iOS_SwiftUITests" */;
+			buildPhases = (
+				E151D0072582121D0022AAAF /* Sources */,
+				E151D0082582121D0022AAAF /* Frameworks */,
+				E151D0092582121D0022AAAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E151D00D2582121D0022AAAF /* PBXTargetDependency */,
+			);
+			name = VRIX_For_iOS_SwiftUITests;
+			productName = VRIX_For_iOS_SwiftUITests;
+			productReference = E151D00B2582121D0022AAAF /* VRIX_For_iOS_SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E151CFDF258212190022AAAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					E151CFE6258212190022AAAF = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					E151CFFF2582121D0022AAAF = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = E151CFE6258212190022AAAF;
+					};
+					E151D00A2582121D0022AAAF = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = E151CFE6258212190022AAAF;
+					};
+				};
+			};
+			buildConfigurationList = E151CFE2258212190022AAAF /* Build configuration list for PBXProject "VRIX_For_iOS_Swift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E151CFDE258212190022AAAF;
+			productRefGroup = E151CFE8258212190022AAAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E151CFE6258212190022AAAF /* VRIX_For_iOS_Swift */,
+				E151CFFF2582121D0022AAAF /* VRIX_For_iOS_SwiftTests */,
+				E151D00A2582121D0022AAAF /* VRIX_For_iOS_SwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E151CFE5258212190022AAAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E151CFFA2582121D0022AAAF /* LaunchScreen.storyboard in Resources */,
+				E151CFF72582121D0022AAAF /* Assets.xcassets in Resources */,
+				E151CFF2258212190022AAAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E151CFFE2582121D0022AAAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E151D0092582121D0022AAAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E151CFE3258212190022AAAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1A478DB2589ECC300681C05 /* GXXVideoPlayerView.swift in Sources */,
+				E151CFF5258212190022AAAF /* VRIX_For_iOS_Swift.xcdatamodeld in Sources */,
+				E151CFEF258212190022AAAF /* ViewController.swift in Sources */,
+				E151CFEB258212190022AAAF /* AppDelegate.swift in Sources */,
+				E151CFED258212190022AAAF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E151CFFC2582121D0022AAAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E151D0052582121D0022AAAF /* VRIX_For_iOS_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E151D0072582121D0022AAAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E151D0102582121D0022AAAF /* VRIX_For_iOS_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E151D0022582121D0022AAAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E151CFE6258212190022AAAF /* VRIX_For_iOS_Swift */;
+			targetProxy = E151D0012582121D0022AAAF /* PBXContainerItemProxy */;
+		};
+		E151D00D2582121D0022AAAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E151CFE6258212190022AAAF /* VRIX_For_iOS_Swift */;
+			targetProxy = E151D00C2582121D0022AAAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E151CFF0258212190022AAAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E151CFF1258212190022AAAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E151CFF82582121D0022AAAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E151CFF92582121D0022AAAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E151D0122582121D0022AAAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E151D0132582121D0022AAAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E151D0152582121D0022AAAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9Y68NLX6DA;
+				INFOPLIST_FILE = VRIX_For_iOS_Swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gretech.VRIX-For-iOS-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/gom/VRiX_iOS/Example_Swift/VRIX_For_iOS_Swift/VRIX_For_iOS_Swift-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E151D0162582121D0022AAAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9Y68NLX6DA;
+				INFOPLIST_FILE = VRIX_For_iOS_Swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gretech.VRIX-For-iOS-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/gom/VRiX_iOS/Example_Swift/VRIX_For_iOS_Swift/VRIX_For_iOS_Swift-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E151D0182582121D0022AAAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9Y68NLX6DA;
+				INFOPLIST_FILE = VRIX_For_iOS_SwiftTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gretech.VRIX-For-iOS-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VRIX_For_iOS_Swift.app/VRIX_For_iOS_Swift";
+			};
+			name = Debug;
+		};
+		E151D0192582121D0022AAAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9Y68NLX6DA;
+				INFOPLIST_FILE = VRIX_For_iOS_SwiftTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gretech.VRIX-For-iOS-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VRIX_For_iOS_Swift.app/VRIX_For_iOS_Swift";
+			};
+			name = Release;
+		};
+		E151D01B2582121D0022AAAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9Y68NLX6DA;
+				INFOPLIST_FILE = VRIX_For_iOS_SwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gretech.VRIX-For-iOS-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VRIX_For_iOS_Swift;
+			};
+			name = Debug;
+		};
+		E151D01C2582121D0022AAAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9Y68NLX6DA;
+				INFOPLIST_FILE = VRIX_For_iOS_SwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gretech.VRIX-For-iOS-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VRIX_For_iOS_Swift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E151CFE2258212190022AAAF /* Build configuration list for PBXProject "VRIX_For_iOS_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E151D0122582121D0022AAAF /* Debug */,
+				E151D0132582121D0022AAAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E151D0142582121D0022AAAF /* Build configuration list for PBXNativeTarget "VRIX_For_iOS_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E151D0152582121D0022AAAF /* Debug */,
+				E151D0162582121D0022AAAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E151D0172582121D0022AAAF /* Build configuration list for PBXNativeTarget "VRIX_For_iOS_SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E151D0182582121D0022AAAF /* Debug */,
+				E151D0192582121D0022AAAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E151D01A2582121D0022AAAF /* Build configuration list for PBXNativeTarget "VRIX_For_iOS_SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E151D01B2582121D0022AAAF /* Debug */,
+				E151D01C2582121D0022AAAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E151CFF3258212190022AAAF /* VRIX_For_iOS_Swift.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E151CFF4258212190022AAAF /* VRIX_For_iOS_Swift.xcdatamodel */,
+			);
+			currentVersion = E151CFF4258212190022AAAF /* VRIX_For_iOS_Swift.xcdatamodel */;
+			path = VRIX_For_iOS_Swift.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E151CFDF258212190022AAAF /* Project object */;
+}

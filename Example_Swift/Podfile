@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.3'
+
+target 'VRIX_For_iOS_Swift' do
+  pod 'VRiX_iOS', :path => '../'
+
+  target 'VRIX_For_iOS_SwiftTests' do
+    inherit! :search_paths
+
+    
+  end
+end
