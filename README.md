@@ -54,7 +54,8 @@ VMAP, VAST VRiX
     NSInteger numberOfPreroll = [_vrixMananger prerollCount];
     if (numberOfPreroll > 0){
         // Play Preroll
-        [_vrixMananger prerollAtView:_adView completionHandler:^{
+        [_vrixMananger prerollAtView:_adView completionWithResult:^(NSString* adNames, NSInteger count, NSArray<NSDictionary *>* userInfos) {
+        
             //TODO: preroll광고 끝난후에 처리할 내용을 구현
         }];
     }
@@ -100,7 +101,7 @@ VMAP, VAST VRiX
 {
     NSInteger numberOfPostroll = [_vrixMananger postrollCount];
     if (numberOfPostroll > 0){
-        [_vrixMananger postrollAtView:_adView completionHandler:^{
+        [_vrixMananger postrollAtView:_adView completionHandler:^(BOOL success, id userInfo) {
             //TODO:postroll광고 끝난후에 처리할 내용을 구현
         }];
 }
@@ -238,7 +239,7 @@ completionHandler:(void (^)(BOOL success, NSError *error))handler;
 @discussion		프리롤 광고를 해당뷰에 재생시킨다.
 */
 - (void) prerollAtView:(UIView *)targetView
-completionHandler:(void (^)(void))handler;
+completionHandler:(void (^)(BOOL success, id userInfo))handler;
 
 /*!
 @method			prerollCount
@@ -272,7 +273,7 @@ completionHandler:(void (^)(GXAdBreakType breakType))completionHandler;
 @discussion		포스트롤 광고를 해당뷰에 재생시킨다.
 */
 - (void) postrollAtView:(UIView *)targetView
-completionHandler:(void (^)(void))handler;
+completionHandler:(void (^)(BOOL success, id userInfo))handler;
 
 /*!
 @method			postrollCount
