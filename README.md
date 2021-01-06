@@ -20,9 +20,9 @@ VMAP, VAST VRiX
 
 ## Installation
 
-#### Manually
-1. Download and drop ```VRiX.framework``` in your project.  
-2. Project > Build settings > Other linker flasg '''-Objc''' '''-all_load'''  
+```ruby
+pod 'VRiX_iOS'
+```
 
 ## Usage example
 
