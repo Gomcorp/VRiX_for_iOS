@@ -506,6 +506,7 @@
 {
     if (self.player != nil)
     {
+        _didFinishedPlaybackBySkip = NO;
         if([NSThread isMainThread] == YES)
         {
             [self.player play];
@@ -724,6 +725,12 @@
         // skip을 진행했을 경우 complete를 보내지 않는다
         if (_didFinishedPlaybackBySkip == NO)
         {
+            NSArray *progressTrackings = [self GX_findTrackingEventProgress];
+            for (GTTracking *progressTracking in progressTrackings)
+            {
+                [_currentCreative sendTracking:progressTracking];
+            }
+            
             NSMutableArray<GTTracking *>* trackings = [_currentCreative findTracksEventName:GXTrainkinEventTypeComplete];
             [_currentCreative sendTrackings:trackings];
         }
