@@ -124,15 +124,13 @@ static NSInteger const          _adDataNumberOfElementImportUtil;
             
             [adData setVast:vast];
             
-            GTAd *firstAd = vast.adList.firstObject;
-            if (firstAd != nil) {
+            for (int i = 0; i<vast.adList.count; i++) {
                 [adSource setVastData:adData];
                 [adBreak setAdSource:adSource];
             
                 [self.adBreakList addObject:adBreak];
             }
         }
-        
     }
     
     
