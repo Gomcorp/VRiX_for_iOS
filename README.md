@@ -450,6 +450,11 @@ completionHandler:(void (^)(BOOL success, id userInfo))handler;
 */
 - (NSInteger) postrollCount;
 ```
+
+### Version 0.1.2 변경 내역
+- GTIcon iconClickTracking을 NSString -> NSArray로 교체 
+- 아이콘 클릭시 동시에 여러 클릭 트래킹 처리 작업하도록 수정
+
 ## License
 
 Gomcorp – (https://www.gomcorp.com/) – gurwnsdl1@gomcorp.com

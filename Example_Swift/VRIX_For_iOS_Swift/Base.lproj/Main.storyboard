@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -101,6 +102,13 @@
                                     <constraint firstAttribute="width" secondItem="leM-a6-AeX" secondAttribute="height" multiplier="16:9" id="vTW-IG-Nif"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ew8-9j-P3c">
+                                <rect key="frame" x="183.5" y="438" width="47" height="30"/>
+                                <state key="normal" title="Reload"/>
+                                <connections>
+                                    <action selector="reload:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qld-83-Wv0"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -110,9 +118,11 @@
                             <constraint firstItem="6kR-Se-Y7e" firstAttribute="top" secondItem="TFJ-n2-Bi0" secondAttribute="top" id="3gd-5y-Et0"/>
                             <constraint firstItem="6kR-Se-Y7e" firstAttribute="width" secondItem="6kR-Se-Y7e" secondAttribute="height" multiplier="16:9" id="6DU-5N-Lv6"/>
                             <constraint firstItem="TFJ-n2-Bi0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="BoT-Vk-FtX"/>
+                            <constraint firstItem="Ew8-9j-P3c" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Fhy-pb-o3z"/>
                             <constraint firstItem="leM-a6-AeX" firstAttribute="width" secondItem="leM-a6-AeX" secondAttribute="height" multiplier="16:9" id="Iqd-s3-MPV"/>
                             <constraint firstItem="leM-a6-AeX" firstAttribute="width" secondItem="leM-a6-AeX" secondAttribute="height" multiplier="16:9" id="KQ0-nJ-Jgh"/>
                             <constraint firstItem="3RJ-QO-hHM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="120" id="LHK-tV-uNV"/>
+                            <constraint firstItem="Ew8-9j-P3c" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="Rzl-xB-J5E"/>
                             <constraint firstItem="3RJ-QO-hHM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SQs-rI-C0e"/>
                             <constraint firstItem="leM-a6-AeX" firstAttribute="trailing" secondItem="6kR-Se-Y7e" secondAttribute="trailing" id="WIA-Fh-01m"/>
                             <constraint firstItem="6kR-Se-Y7e" firstAttribute="leading" secondItem="TFJ-n2-Bi0" secondAttribute="leading" id="WuM-Ft-wWX"/>

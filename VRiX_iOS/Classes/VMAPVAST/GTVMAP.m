@@ -213,6 +213,13 @@ static NSInteger const          _adDataNumberOfElementImportUtil;
                               returningResponse:&response
                                           error:&error];
     
+    if(data == nil) {
+        NSError * stringError = nil;
+        NSString * content = [NSString stringWithContentsOfFile:url.path encoding:NSUTF8StringEncoding error:&stringError];
+
+        data = [content dataUsingEncoding:NSUTF8StringEncoding];
+    }
+    
     NSInteger length = [data length];
     char* newCString = (char*)malloc(length + 1);
     memset(newCString, 0, length + 1);

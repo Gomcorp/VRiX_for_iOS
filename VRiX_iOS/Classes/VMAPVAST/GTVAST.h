@@ -284,7 +284,7 @@ typedef void(^GXVASTComplationHandler)(BOOL success, id userInfo);
 @property (nonatomic, strong) UIImage           *staticResourceAsset;
 
 @property (nonatomic, strong) NSString          *iconClickThrough;
-@property (nonatomic, strong) NSString          *iconClickTracking;
+@property (nonatomic, strong) NSArray          *iconClickTracking;
 @end
 
 

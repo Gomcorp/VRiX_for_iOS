@@ -7,90 +7,90 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		014CB9478484524004AFB4022A1F190A /* NSURL+URLParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A683331E3CDF3824D6C303C2395070C /* NSURL+URLParameters.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0819FA4D484BE5FA077107720230C8D2 /* VRiXManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D30A579AA678F0EE90CF91F77FE7A01B /* VRiXManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
-		121439AB6B4061E1B6222256817548FA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E658F388F01C72599CA75537950B6095 /* XCTest.framework */; };
-		12B00CF29F2FBFCC8DFABEFF450A033A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
-		12E98F891D8C585D4CEBC19C426B492C /* NSURL+URLParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 29440A469D2C0920B5C0D1BBC7C0943C /* NSURL+URLParameters.m */; };
-		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
-		1F20D064DCD130836741CEF0BB0F1954 /* GTVMAP.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AB131116A4BAEAB90530B266C1C169 /* GTVMAP.m */; };
-		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
-		2E4C0BD2363ABABB6470FBA5415985AA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */; };
-		3150CBDD0A6673D81BEF9F2EC3CB715F /* UIColor+HexColors.m in Sources */ = {isa = PBXBuildFile; fileRef = FACEAB263328A401A4BBCFC0559E068D /* UIColor+HexColors.m */; };
-		365014F3DF16132B7E30B31DADB7E2F7 /* VRiX_iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C275160E5F5B66B35D5603376C058FF2 /* VRiX_iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		39D794984E4553B6285A19054B6A23BC /* GTGoxImporterUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 663C0937AF69AB26961AD3AD34D41C6F /* GTGoxImporterUtil.m */; };
-		3A911EC46F5EE733E2C0978FC8A023E6 /* GXPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E746381A06E54A397E5C66E31ADEFD4E /* GXPlayerView.m */; };
-		3BA0E928968B4AC0EC72717080747748 /* Pods-VRiX_iOS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF850C92E225794F0255DD830059442 /* Pods-VRiX_iOS_Tests-dummy.m */; };
-		3D1DE38FBC1B4385B5E8F23F162D5424 /* GTGoxConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 8370AB90B9C4C0D3D74EB80B55EB24E5 /* GTGoxConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3EA984C38317DC311E8A3B290CAAB98A /* NSString+GNSURLEncodedString.h in Headers */ = {isa = PBXBuildFile; fileRef = E932549B0495F241AE55C68F20D9EFB1 /* NSString+GNSURLEncodedString.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		467820606B7C302C3E35C6709C2F2BA8 /* GTVAST.m in Sources */ = {isa = PBXBuildFile; fileRef = AD70C8DD7DDB1E7427E5645F6D4468B8 /* GTVAST.m */; };
-		4AD1A45C11B27E10CD89D7CFB0F9A51F /* NSString+InvalidChar.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D5EA5403DFB963BFC2BB6F2B8FC8F3 /* NSString+InvalidChar.m */; };
-		4F65525B66E0ED5B2D0D62956A678198 /* GoxUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F396AC4D5F9A4F1D5A08206DBC8C993 /* GoxUtils.m */; };
-		548D3C7F03FF7A6A8708694C8D34B74A /* VRiX.h in Headers */ = {isa = PBXBuildFile; fileRef = C394FA41C85D30CC3B8FBE68CF2D5BEE /* VRiX.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5BFB492BFDF4217B5826792D0ECEC754 /* GXAdManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B21ACB17B42C7AF32260260DA1D2E08 /* GXAdManager.m */; };
-		69883D56269724AE70C7509E6688DA1E /* GTVAST.h in Headers */ = {isa = PBXBuildFile; fileRef = 508323D0D274E26E1B74D115868C0C0D /* GTVAST.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
-		71AC975415A348341F12D8A60F88FF71 /* NSString+InvalidChar.h in Headers */ = {isa = PBXBuildFile; fileRef = 913F23B539D7D316386E634923A46029 /* NSString+InvalidChar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		753778A73F13B7F6FE926BA48A5CFD98 /* Statistics.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B9CF7E2837B867B1BD72F46E516414B /* Statistics.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		854B9DB0F47678398A370F7B1EA7868B /* GXPlayerView.h in Headers */ = {isa = PBXBuildFile; fileRef = F8ABE002C1F1078F189CA29680C17FCF /* GXPlayerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		872212983B7276062C815C62D02E0F82 /* Statistics.m in Sources */ = {isa = PBXBuildFile; fileRef = C7640B02663B92CE5EFDD4DA23B44E2B /* Statistics.m */; };
-		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
-		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
-		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9286FF205559A5955B0744EA155DF091 /* NSString+GNSURLEncodedString.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A46214475C651F45D248A4B9D0E8C21 /* NSString+GNSURLEncodedString.m */; };
-		9AFDBB749BBECF01A96AF94A8C29C106 /* UIColor+HexColors.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F18803634DFF77A70F6C62302062BEB /* UIColor+HexColors.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
-		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
-		A5B0A0882B839019533DA7B1911FC392 /* VRiX_iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C81F22FFFEF94D9E00851CA5438AF470 /* VRiX_iOS-dummy.m */; };
-		AFDF81DCC3602A3100A9FD7227742934 /* GTVMAP.h in Headers */ = {isa = PBXBuildFile; fileRef = 10EFAC0BC7425D63B23A0FC6993614AC /* GTVMAP.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B43A5F4651123C0D47EC8C3308CFB93A /* Pods-VRiX_iOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ED7B2BD35721807B8F7E23173B2A883 /* Pods-VRiX_iOS_Example-dummy.m */; };
-		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		B78A95E96D665E57DE1C13EE0DD4EC40 /* GXADPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A56319650E9C44146B07A66C303E90 /* GXADPlayer.m */; };
-		B8AAF8EF9B6B528AD4DD82007FBC9360 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
-		BCC731E788F6E8EDDD8DF6FE83105497 /* Pods-VRiX_iOS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B1BF7C5D2E23D267A2DB27E2F057DA6F /* Pods-VRiX_iOS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BD4953074A12E769ED4E6C94F5E73694 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */; };
-		C34FAFF929C1A690378051BDB3F5C906 /* GTGoxImporterUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = BAE9B59F3E65176F10ECA0323A74F7D4 /* GTGoxImporterUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CA63ADACAC6C2BF1E30108E6BEF68A09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
-		CE075F30130AD3F2861C8303A5A43CBE /* XMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = C2678415D330C6F6039B9344CEC10C4C /* XMLDictionary.m */; };
-		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		DCB9200B096CAF40198F8259E684704B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
-		DEA3417CE4AA4C4AD3C71414C5323AF2 /* Pods-VRiX_iOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64A89A61E1919EEB6FA7533ECFBC7B39 /* Pods-VRiX_iOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E5DEBC28863B9291E7A818728D39F67D /* GXAdManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B5A8D3582CBFF1DFB3B23317686BD64 /* GXAdManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
-		ED9FA544A71A62EEEC920A6F13220BD0 /* GoxUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A8F796E84AAD28F374978BB3775ACE2 /* GoxUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EEEC04EA43B1498D70B8D0F5909204E0 /* GXADPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C148D55AA0F4F0D7F064DA2098CD160 /* GXADPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F168B47FA4F70007C13CD0759634F72B /* VRiX.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA1AD0C0599579F9C8E9C9A45DBB448 /* VRiX.m */; };
-		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		F419331A24C2837F28B90C295EF93760 /* VRiXManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C4F4DF904394064A2E2D9E139D1355 /* VRiXManager.m */; };
-		F41D19BDF55735A30EED6558B7E5C068 /* XMLDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = F9AFB29554A821EEE399B4B46A88EC84 /* XMLDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		142BE657B3BF97E39B9CB9EE0D121F66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		17CE0A5C8CB7583AE4412E64DCB6E0F3 /* GTGoxImporterUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 663C0937AF69AB26961AD3AD34D41C6F /* GTGoxImporterUtil.m */; };
+		1F84FE646CD1D7BAFFB58C243277AFF8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		238E0CEF5503C3B81CDE7ECE0C1DCCAD /* Pods-VRiX_iOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64A89A61E1919EEB6FA7533ECFBC7B39 /* Pods-VRiX_iOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		251B5B5B28D98DFE2148E1B25F1AF42C /* GXADPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C148D55AA0F4F0D7F064DA2098CD160 /* GXADPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29019CA757547E241EBEDB56FD4B3D07 /* GTVAST.m in Sources */ = {isa = PBXBuildFile; fileRef = AD70C8DD7DDB1E7427E5645F6D4468B8 /* GTVAST.m */; };
+		2975A09730FD83DC0897129A11EA6585 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
+		2A9F1A0DF318B33D435C57CE16E2416B /* NSURL+URLParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A683331E3CDF3824D6C303C2395070C /* NSURL+URLParameters.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B88C28DD20CBFA7B3AEB21A365197FE /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CB61F6FA511CAACB43A50DC3A82E0DD /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
+		2D064951B0A54771FAF0EF2B436412DF /* GXAdManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B5A8D3582CBFF1DFB3B23317686BD64 /* GXAdManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E54F41FED0589F222DFCB96CFCEE975 /* GXAdManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B21ACB17B42C7AF32260260DA1D2E08 /* GXAdManager.m */; };
+		2ECCAC52EF4C74E1032E0BC646BBE5B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		30D475DF57C0C682A723231E7BCA0D14 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
+		335C17981BFC391AA1B00DB95407BC49 /* VRiX_iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C81F22FFFEF94D9E00851CA5438AF470 /* VRiX_iOS-dummy.m */; };
+		373413256658309F9053CE22BF62077E /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		37D33333771BD3DF07AACFF6FDD0C4C3 /* Statistics.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B9CF7E2837B867B1BD72F46E516414B /* Statistics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E029681F0E372F14E2CD97DFEE67E43 /* Pods-VRiX_iOS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B1BF7C5D2E23D267A2DB27E2F057DA6F /* Pods-VRiX_iOS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4129B4B0B7BA7A25CB2B2622CCD1D9D5 /* UIColor+HexColors.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F18803634DFF77A70F6C62302062BEB /* UIColor+HexColors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BCD75DB6F2D5305354C514DC779F703 /* NSURL+URLParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 29440A469D2C0920B5C0D1BBC7C0943C /* NSURL+URLParameters.m */; };
+		4FAA2A27CE900E83A2B009643AE07BF1 /* Pods-VRiX_iOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ED7B2BD35721807B8F7E23173B2A883 /* Pods-VRiX_iOS_Example-dummy.m */; };
+		5558B876B579BC1E79BD3D2B19148329 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		567D21D72180EA03BE60232E5BF5DC2E /* GoxUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F396AC4D5F9A4F1D5A08206DBC8C993 /* GoxUtils.m */; };
+		5BE525FF6FA14B999ED2CCC0AA4FA0CF /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
+		5F6FF3199DDF583933257C466408A93F /* Pods-VRiX_iOS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF850C92E225794F0255DD830059442 /* Pods-VRiX_iOS_Tests-dummy.m */; };
+		61E87E3C5D5EB623028EB7B77D06BE41 /* NSString+GNSURLEncodedString.h in Headers */ = {isa = PBXBuildFile; fileRef = E932549B0495F241AE55C68F20D9EFB1 /* NSString+GNSURLEncodedString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		640CCE9C3A28AA3CA15510899F9140EE /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67F1963AA7C9EDB78127AD5F566A4949 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		74339C58AC4E5631FB8C0E662668A796 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
+		78BDC5F735646B4C14416FC839E47A23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		78EE820E278C7D14A222D8F77AF2DB3E /* NSString+GNSURLEncodedString.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A46214475C651F45D248A4B9D0E8C21 /* NSString+GNSURLEncodedString.m */; };
+		7C67CBD15D9B5D0B7769B2F469478332 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
+		7F10BB6B732905231E43A87C77CFD16E /* VRiXManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C4F4DF904394064A2E2D9E139D1355 /* VRiXManager.m */; };
+		875A310EAF4D0C136C3FFFF5E0335BE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */; };
+		8788F8C12AAEF0D6F328C351127F945F /* GoxUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A8F796E84AAD28F374978BB3775ACE2 /* GoxUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88DB5AAD42E3F3E649C777B7BF9B310B /* NSString+InvalidChar.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D5EA5403DFB963BFC2BB6F2B8FC8F3 /* NSString+InvalidChar.m */; };
+		8A9BEF76DF9021BB13A86AE2044370D8 /* GXADPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A56319650E9C44146B07A66C303E90 /* GXADPlayer.m */; };
+		8AE19756F0126FE92AF625E36F3D70FE /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8C04ADA3B217C36111F2E08BFB653F67 /* NSString+InvalidChar.h in Headers */ = {isa = PBXBuildFile; fileRef = 913F23B539D7D316386E634923A46029 /* NSString+InvalidChar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D1B40555217BF8FCD630387F6AC4023 /* GXPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E746381A06E54A397E5C66E31ADEFD4E /* GXPlayerView.m */; };
+		8E6E73415639B747846B6E8A8112E08E /* VRiX.h in Headers */ = {isa = PBXBuildFile; fileRef = C394FA41C85D30CC3B8FBE68CF2D5BEE /* VRiX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F31ECBFF247A0CC62ED7F91F110F707 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		9D3C5E2F56838937146191468A893244 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E658F388F01C72599CA75537950B6095 /* XCTest.framework */; };
+		9DA9914C8EE9928FC0596AF6DF2DA80E /* GTVAST.h in Headers */ = {isa = PBXBuildFile; fileRef = 508323D0D274E26E1B74D115868C0C0D /* GTVAST.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A53EC8D1689E95603CD1D602A66FE18E /* XMLDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = F9AFB29554A821EEE399B4B46A88EC84 /* XMLDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B284FE8E5BF1A3CB7CE8FB88A01086D9 /* GXPlayerView.h in Headers */ = {isa = PBXBuildFile; fileRef = F8ABE002C1F1078F189CA29680C17FCF /* GXPlayerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B458D2A5CE51C8CE5427AE062179C516 /* GTGoxImporterUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = BAE9B59F3E65176F10ECA0323A74F7D4 /* GTGoxImporterUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B52281F9F4340D4FC8ABB2FEB1FEC08E /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
+		B77BF7317FEEC1C21443FFDE53D40749 /* GTGoxConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 8370AB90B9C4C0D3D74EB80B55EB24E5 /* GTGoxConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDE5BF51BC52C2125E4F0BFBC4913F84 /* VRiXManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D30A579AA678F0EE90CF91F77FE7A01B /* VRiXManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C390C6005353FB986CB52F474CEF8588 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
+		C89F1833EA014B26A7CA37EA8AE3C908 /* Statistics.m in Sources */ = {isa = PBXBuildFile; fileRef = C7640B02663B92CE5EFDD4DA23B44E2B /* Statistics.m */; };
+		C9F76407497DF0205D7460B36D22259F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */; };
+		CA54C09A12400567AFFCB407EEB7E154 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
+		CE78B21E7A37E4A4B5C549C567E01238 /* XMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = C2678415D330C6F6039B9344CEC10C4C /* XMLDictionary.m */; };
+		D5F881E873572558B6AE076F4BBA28F0 /* UIColor+HexColors.m in Sources */ = {isa = PBXBuildFile; fileRef = FACEAB263328A401A4BBCFC0559E068D /* UIColor+HexColors.m */; };
+		DCC8E56CC00874ACA26FD10EC7E3290E /* GTVMAP.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AB131116A4BAEAB90530B266C1C169 /* GTVMAP.m */; };
+		E39065465009981E0CBC9A426AF4F59F /* GTVMAP.h in Headers */ = {isa = PBXBuildFile; fileRef = 10EFAC0BC7425D63B23A0FC6993614AC /* GTVMAP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5472C96712CCACE2CDE85169568C73E /* VRiX.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA1AD0C0599579F9C8E9C9A45DBB448 /* VRiX.m */; };
+		F9E63607ED6B599463085D5589C7B84E /* VRiX_iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C275160E5F5B66B35D5603376C058FF2 /* VRiX_iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF8307B7346F4D3BA13C11AECFE6EDD0 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		963D2810B8B891DA59A76908657FD927 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
-			remoteInfo = FBSnapshotTestCase;
-		};
-		A317AD922EBD2EE69D21860A62BBAB27 /* PBXContainerItemProxy */ = {
+		182EC0FCD855B9D16A90B042DAD86787 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0E2F1989693080D02B55D10EDEFE78B7;
 			remoteInfo = VRiX_iOS;
 		};
-		CE8E4CCBC4069BC5D282FE4A03ED5A3E /* PBXContainerItemProxy */ = {
+		4B606DAC9A16578F89E9FF74961E702D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1FA1CD580865994D8462F48377C6ECC0;
 			remoteInfo = "Pods-VRiX_iOS_Example";
+		};
+		F555C477D7DAC6CB46A6BB13F24C0A9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
+			remoteInfo = FBSnapshotTestCase;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -100,7 +100,7 @@
 		10EFAC0BC7425D63B23A0FC6993614AC /* GTVMAP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTVMAP.h; sourceTree = "<group>"; };
 		1A5DC6EA7A16E85133E819928D8639EB /* Pods-VRiX_iOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VRiX_iOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		1A8F796E84AAD28F374978BB3775ACE2 /* GoxUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GoxUtils.h; sourceTree = "<group>"; };
-		1AA14B4EA534C4418C7F76B90B909613 /* Pods_VRiX_iOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VRiX_iOS_Tests.framework; path = "Pods-VRiX_iOS_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AA14B4EA534C4418C7F76B90B909613 /* Pods-VRiX_iOS_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-VRiX_iOS_Tests"; path = Pods_VRiX_iOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		1FF850C92E225794F0255DD830059442 /* Pods-VRiX_iOS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VRiX_iOS_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -127,7 +127,7 @@
 		57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5A94E71C2B0C9EF3E71920889F583890 /* Pods-VRiX_iOS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VRiX_iOS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5B9CF7E2837B867B1BD72F46E516414B /* Statistics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Statistics.h; sourceTree = "<group>"; };
-		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		64A89A61E1919EEB6FA7533ECFBC7B39 /* Pods-VRiX_iOS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VRiX_iOS_Example-umbrella.h"; sourceTree = "<group>"; };
 		64C1E3C1DDC77EDBFC58ECB457036D06 /* VRiX_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VRiX_iOS.debug.xcconfig; sourceTree = "<group>"; };
 		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
@@ -161,7 +161,7 @@
 		B6F6837D58F07EE7C4EE8EEF894229A8 /* Pods-VRiX_iOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VRiX_iOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
 		BAE9B59F3E65176F10ECA0323A74F7D4 /* GTGoxImporterUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTGoxImporterUtil.h; sourceTree = "<group>"; };
-		BB334511A2E6FC24C79A25478C4F4251 /* VRiX_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VRiX_iOS.framework; path = VRiX_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB334511A2E6FC24C79A25478C4F4251 /* VRiX_iOS */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VRiX_iOS; path = VRiX_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE6A72570F646D960E42E39FDE89A142 /* Pods-VRiX_iOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VRiX_iOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BEB2F543C8E7EB1F6F0AB9DE7867CE36 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		BFC100B423313636AEB2125CF4777411 /* VRiX_iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VRiX_iOS.modulemap; sourceTree = "<group>"; };
@@ -175,7 +175,7 @@
 		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		D30A579AA678F0EE90CF91F77FE7A01B /* VRiXManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VRiXManager.h; path = VRiX_iOS/Classes/VRiXManager.h; sourceTree = "<group>"; };
 		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		DF43871791E2050019E51A5715C3AAEE /* Pods_VRiX_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VRiX_iOS_Example.framework; path = "Pods-VRiX_iOS_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF43871791E2050019E51A5715C3AAEE /* Pods-VRiX_iOS_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-VRiX_iOS_Example"; path = Pods_VRiX_iOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E658F388F01C72599CA75537950B6095 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		E746381A06E54A397E5C66E31ADEFD4E /* GXPlayerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GXPlayerView.m; sourceTree = "<group>"; };
 		E932549B0495F241AE55C68F20D9EFB1 /* NSString+GNSURLEncodedString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+GNSURLEncodedString.h"; sourceTree = "<group>"; };
@@ -188,38 +188,38 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1E6CD89B34F6E13C8E465CA7F509D372 /* Frameworks */ = {
+		AFB13AAD6D324E7CF86A4C0BC31E1A64 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8AAF8EF9B6B528AD4DD82007FBC9360 /* Foundation.framework in Frameworks */,
+				142BE657B3BF97E39B9CB9EE0D121F66 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		21937D7C023FF3B21585A02507E38CE5 /* Frameworks */ = {
+		E3B880388FF17A336FBF90E30E537508 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCB9200B096CAF40198F8259E684704B /* Foundation.framework in Frameworks */,
+				2ECCAC52EF4C74E1032E0BC646BBE5B9 /* Foundation.framework in Frameworks */,
+				C9F76407497DF0205D7460B36D22259F /* QuartzCore.framework in Frameworks */,
+				875A310EAF4D0C136C3FFFF5E0335BE4 /* UIKit.framework in Frameworks */,
+				9D3C5E2F56838937146191468A893244 /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E581515110D66F94F80A6937831489A1 /* Frameworks */ = {
+		F05164C7F8F83BAE0E885896031F0641 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA63ADACAC6C2BF1E30108E6BEF68A09 /* Foundation.framework in Frameworks */,
-				2E4C0BD2363ABABB6470FBA5415985AA /* QuartzCore.framework in Frameworks */,
-				BD4953074A12E769ED4E6C94F5E73694 /* UIKit.framework in Frameworks */,
-				121439AB6B4061E1B6222256817548FA /* XCTest.framework in Frameworks */,
+				78BDC5F735646B4C14416FC839E47A23 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ECF9C2F0394D237AB69961D956EBC633 /* Frameworks */ = {
+		F3689183ED7A8282ED591AD0919451EC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12B00CF29F2FBFCC8DFABEFF450A033A /* Foundation.framework in Frameworks */,
+				8F31ECBFF247A0CC62ED7F91F110F707 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +367,17 @@
 			path = NSURL;
 			sourceTree = "<group>";
 		};
+		A2E0090F63C4C585943D31ACB3C807A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */,
+				DF43871791E2050019E51A5715C3AAEE /* Pods-VRiX_iOS_Example */,
+				1AA14B4EA534C4418C7F76B90B909613 /* Pods-VRiX_iOS_Tests */,
+				BB334511A2E6FC24C79A25478C4F4251 /* VRiX_iOS */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		AD647FFF3B9CF014EE4C286EFDFDABAE /* Pods-VRiX_iOS_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -442,7 +453,7 @@
 				8181F55D0CE1C938E8A48B843304AB6B /* Development Pods */,
 				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
 				E81A37DBDE41E671312C56736544E2FA /* Pods */,
-				F8772E92EB4F931A6752F5D450C837D7 /* Products */,
+				A2E0090F63C4C585943D31ACB3C807A5 /* Products */,
 				FA8928EE2000AD63E46EDCB6133DC821 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -475,17 +486,6 @@
 				BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		F8772E92EB4F931A6752F5D450C837D7 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */,
-				DF43871791E2050019E51A5715C3AAEE /* Pods_VRiX_iOS_Example.framework */,
-				1AA14B4EA534C4418C7F76B90B909613 /* Pods_VRiX_iOS_Tests.framework */,
-				BB334511A2E6FC24C79A25478C4F4251 /* VRiX_iOS.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		F957564A3E5EAC82B89391C25E2BB9D3 /* VMAPVAST */ = {
@@ -523,58 +523,58 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */ = {
+		A2A75FBE3919628F62C049B5DF3E0092 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */,
-				00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */,
-				C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */,
-				90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */,
-				40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */,
-				F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */,
-				D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */,
-				B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */,
+				8788F8C12AAEF0D6F328C351127F945F /* GoxUtils.h in Headers */,
+				B77BF7317FEEC1C21443FFDE53D40749 /* GTGoxConstants.h in Headers */,
+				B458D2A5CE51C8CE5427AE062179C516 /* GTGoxImporterUtil.h in Headers */,
+				9DA9914C8EE9928FC0596AF6DF2DA80E /* GTVAST.h in Headers */,
+				E39065465009981E0CBC9A426AF4F59F /* GTVMAP.h in Headers */,
+				2D064951B0A54771FAF0EF2B436412DF /* GXAdManager.h in Headers */,
+				251B5B5B28D98DFE2148E1B25F1AF42C /* GXADPlayer.h in Headers */,
+				B284FE8E5BF1A3CB7CE8FB88A01086D9 /* GXPlayerView.h in Headers */,
+				61E87E3C5D5EB623028EB7B77D06BE41 /* NSString+GNSURLEncodedString.h in Headers */,
+				8C04ADA3B217C36111F2E08BFB653F67 /* NSString+InvalidChar.h in Headers */,
+				2A9F1A0DF318B33D435C57CE16E2416B /* NSURL+URLParameters.h in Headers */,
+				37D33333771BD3DF07AACFF6FDD0C4C3 /* Statistics.h in Headers */,
+				4129B4B0B7BA7A25CB2B2622CCD1D9D5 /* UIColor+HexColors.h in Headers */,
+				8E6E73415639B747846B6E8A8112E08E /* VRiX.h in Headers */,
+				F9E63607ED6B599463085D5589C7B84E /* VRiX_iOS-umbrella.h in Headers */,
+				BDE5BF51BC52C2125E4F0BFBC4913F84 /* VRiXManager.h in Headers */,
+				A53EC8D1689E95603CD1D602A66FE18E /* XMLDictionary.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4A4764CDFADCCAE441BE95DFA36F3011 /* Headers */ = {
+		A3EC18F2D1434EF613D6507A875F50C6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEA3417CE4AA4C4AD3C71414C5323AF2 /* Pods-VRiX_iOS_Example-umbrella.h in Headers */,
+				3E029681F0E372F14E2CD97DFEE67E43 /* Pods-VRiX_iOS_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		755337F0516DC7270DFC031A56951681 /* Headers */ = {
+		D4CF7A53AFE8275DDE075747E8245F97 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED9FA544A71A62EEEC920A6F13220BD0 /* GoxUtils.h in Headers */,
-				3D1DE38FBC1B4385B5E8F23F162D5424 /* GTGoxConstants.h in Headers */,
-				C34FAFF929C1A690378051BDB3F5C906 /* GTGoxImporterUtil.h in Headers */,
-				69883D56269724AE70C7509E6688DA1E /* GTVAST.h in Headers */,
-				AFDF81DCC3602A3100A9FD7227742934 /* GTVMAP.h in Headers */,
-				E5DEBC28863B9291E7A818728D39F67D /* GXAdManager.h in Headers */,
-				EEEC04EA43B1498D70B8D0F5909204E0 /* GXADPlayer.h in Headers */,
-				854B9DB0F47678398A370F7B1EA7868B /* GXPlayerView.h in Headers */,
-				3EA984C38317DC311E8A3B290CAAB98A /* NSString+GNSURLEncodedString.h in Headers */,
-				71AC975415A348341F12D8A60F88FF71 /* NSString+InvalidChar.h in Headers */,
-				014CB9478484524004AFB4022A1F190A /* NSURL+URLParameters.h in Headers */,
-				753778A73F13B7F6FE926BA48A5CFD98 /* Statistics.h in Headers */,
-				9AFDBB749BBECF01A96AF94A8C29C106 /* UIColor+HexColors.h in Headers */,
-				548D3C7F03FF7A6A8708694C8D34B74A /* VRiX.h in Headers */,
-				365014F3DF16132B7E30B31DADB7E2F7 /* VRiX_iOS-umbrella.h in Headers */,
-				0819FA4D484BE5FA077107720230C8D2 /* VRiXManager.h in Headers */,
-				F41D19BDF55735A30EED6558B7E5C068 /* XMLDictionary.h in Headers */,
+				FF8307B7346F4D3BA13C11AECFE6EDD0 /* FBSnapshotTestCase.h in Headers */,
+				1F84FE646CD1D7BAFFB58C243277AFF8 /* FBSnapshotTestCase-umbrella.h in Headers */,
+				640CCE9C3A28AA3CA15510899F9140EE /* FBSnapshotTestCasePlatform.h in Headers */,
+				2B88C28DD20CBFA7B3AEB21A365197FE /* FBSnapshotTestController.h in Headers */,
+				5558B876B579BC1E79BD3D2B19148329 /* UIApplication+StrictKeyWindow.h in Headers */,
+				8AE19756F0126FE92AF625E36F3D70FE /* UIImage+Compare.h in Headers */,
+				67F1963AA7C9EDB78127AD5F566A4949 /* UIImage+Diff.h in Headers */,
+				373413256658309F9053CE22BF62077E /* UIImage+Snapshot.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E99B4B607E56318C09960211D105FBD1 /* Headers */ = {
+		DA2587DA04A201077DA175CCBCE8602F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCC731E788F6E8EDDD8DF6FE83105497 /* Pods-VRiX_iOS_Tests-umbrella.h in Headers */,
+				238E0CEF5503C3B81CDE7ECE0C1DCCAD /* Pods-VRiX_iOS_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,12 +583,12 @@
 /* Begin PBXNativeTarget section */
 		0E2F1989693080D02B55D10EDEFE78B7 /* VRiX_iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 93D543EBE34F7109D8E50CC86C17B16C /* Build configuration list for PBXNativeTarget "VRiX_iOS" */;
+			buildConfigurationList = D0F524284E4B32CADA64B8FBAE722DE3 /* Build configuration list for PBXNativeTarget "VRiX_iOS" */;
 			buildPhases = (
-				755337F0516DC7270DFC031A56951681 /* Headers */,
-				CF6980256D419841131B71ECC6CEDE5C /* Sources */,
-				21937D7C023FF3B21585A02507E38CE5 /* Frameworks */,
-				2A1B25634E325150A551B243C0D7974D /* Resources */,
+				A2A75FBE3919628F62C049B5DF3E0092 /* Headers */,
+				EA2E4F51E4D905D1026DECD1A0CF16D5 /* Sources */,
+				F05164C7F8F83BAE0E885896031F0641 /* Frameworks */,
+				223D60D7F8FFF348594E4F93000AF599 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -596,56 +596,56 @@
 			);
 			name = VRiX_iOS;
 			productName = VRiX_iOS;
-			productReference = BB334511A2E6FC24C79A25478C4F4251 /* VRiX_iOS.framework */;
+			productReference = BB334511A2E6FC24C79A25478C4F4251 /* VRiX_iOS */;
 			productType = "com.apple.product-type.framework";
 		};
 		1FA1CD580865994D8462F48377C6ECC0 /* Pods-VRiX_iOS_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B20E9BE662259AB9676065877A014702 /* Build configuration list for PBXNativeTarget "Pods-VRiX_iOS_Example" */;
+			buildConfigurationList = B8E1F0C9800FBBCD7F422701D8A975D9 /* Build configuration list for PBXNativeTarget "Pods-VRiX_iOS_Example" */;
 			buildPhases = (
-				4A4764CDFADCCAE441BE95DFA36F3011 /* Headers */,
-				B117E65F523E9CE59CDE3E2DC7594FE1 /* Sources */,
-				1E6CD89B34F6E13C8E465CA7F509D372 /* Frameworks */,
-				F2AE11C14646504C9E213E0228A6ACBC /* Resources */,
+				DA2587DA04A201077DA175CCBCE8602F /* Headers */,
+				72E4E92D4D11A500F243CDACCE72FA04 /* Sources */,
+				F3689183ED7A8282ED591AD0919451EC /* Frameworks */,
+				D58145BF72A03DDA58727DDCDD25C90B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8FFE720E558F972CC7D7D05C071604E2 /* PBXTargetDependency */,
+				E20606F96B2D87C59CFC21F02FF0EFC9 /* PBXTargetDependency */,
 			);
 			name = "Pods-VRiX_iOS_Example";
-			productName = "Pods-VRiX_iOS_Example";
-			productReference = DF43871791E2050019E51A5715C3AAEE /* Pods_VRiX_iOS_Example.framework */;
+			productName = Pods_VRiX_iOS_Example;
+			productReference = DF43871791E2050019E51A5715C3AAEE /* Pods-VRiX_iOS_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 		55B06E8865780E916D690302F391E792 /* Pods-VRiX_iOS_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 777F5DAEB63B2CD3300CD4A832103FF6 /* Build configuration list for PBXNativeTarget "Pods-VRiX_iOS_Tests" */;
+			buildConfigurationList = 06F58344982AD10FBEC656C937F39DFA /* Build configuration list for PBXNativeTarget "Pods-VRiX_iOS_Tests" */;
 			buildPhases = (
-				E99B4B607E56318C09960211D105FBD1 /* Headers */,
-				961C2E9DB3BAA3136E71911016A356DD /* Sources */,
-				ECF9C2F0394D237AB69961D956EBC633 /* Frameworks */,
-				A84E45A4FBE5F78CDA1B24CC62846B0E /* Resources */,
+				A3EC18F2D1434EF613D6507A875F50C6 /* Headers */,
+				B9B37C1015EB66CFF10777C12472C17A /* Sources */,
+				AFB13AAD6D324E7CF86A4C0BC31E1A64 /* Frameworks */,
+				3199F30DD9358512F2BABAB648651BAA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				064424C10BC25519E3232F10C5DF3808 /* PBXTargetDependency */,
-				8E8BD276007E325610290E782C039DF2 /* PBXTargetDependency */,
+				FBFF2D2BD308FE2A72D251AC1A1CEBDC /* PBXTargetDependency */,
+				521AE8BEB6A6BE4B98738A0CB80F7244 /* PBXTargetDependency */,
 			);
 			name = "Pods-VRiX_iOS_Tests";
-			productName = "Pods-VRiX_iOS_Tests";
-			productReference = 1AA14B4EA534C4418C7F76B90B909613 /* Pods_VRiX_iOS_Tests.framework */;
+			productName = Pods_VRiX_iOS_Tests;
+			productReference = 1AA14B4EA534C4418C7F76B90B909613 /* Pods-VRiX_iOS_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
 		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildConfigurationList = 28DAA9880679133EC375B7072B9AEABB /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
 			buildPhases = (
-				384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */,
-				A48201AC594B2E6B09C0EE0396BC1377 /* Sources */,
-				E581515110D66F94F80A6937831489A1 /* Frameworks */,
-				5CC655F1A6C7A45A9693160581076BAE /* Resources */,
+				D4CF7A53AFE8275DDE075747E8245F97 /* Headers */,
+				EE210BFC37CDBA0645C09C3819F41723 /* Sources */,
+				E3B880388FF17A336FBF90E30E537508 /* Frameworks */,
+				194C9DCC4899F62F4FB7DDF15C987499 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -653,7 +653,7 @@
 			);
 			name = FBSnapshotTestCase;
 			productName = FBSnapshotTestCase;
-			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */;
+			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -662,19 +662,19 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = F8772E92EB4F931A6752F5D450C837D7 /* Products */;
+			productRefGroup = A2E0090F63C4C585943D31ACB3C807A5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -687,28 +687,28 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2A1B25634E325150A551B243C0D7974D /* Resources */ = {
+		194C9DCC4899F62F4FB7DDF15C987499 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5CC655F1A6C7A45A9693160581076BAE /* Resources */ = {
+		223D60D7F8FFF348594E4F93000AF599 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A84E45A4FBE5F78CDA1B24CC62846B0E /* Resources */ = {
+		3199F30DD9358512F2BABAB648651BAA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F2AE11C14646504C9E213E0228A6ACBC /* Resources */ = {
+		D58145BF72A03DDA58727DDCDD25C90B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -718,85 +718,116 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		961C2E9DB3BAA3136E71911016A356DD /* Sources */ = {
+		72E4E92D4D11A500F243CDACCE72FA04 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BA0E928968B4AC0EC72717080747748 /* Pods-VRiX_iOS_Tests-dummy.m in Sources */,
+				4FAA2A27CE900E83A2B009643AE07BF1 /* Pods-VRiX_iOS_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A48201AC594B2E6B09C0EE0396BC1377 /* Sources */ = {
+		B9B37C1015EB66CFF10777C12472C17A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */,
-				8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */,
-				E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */,
-				88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */,
-				9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */,
-				11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */,
-				2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */,
-				14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */,
-				A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */,
+				5F6FF3199DDF583933257C466408A93F /* Pods-VRiX_iOS_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B117E65F523E9CE59CDE3E2DC7594FE1 /* Sources */ = {
+		EA2E4F51E4D905D1026DECD1A0CF16D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B43A5F4651123C0D47EC8C3308CFB93A /* Pods-VRiX_iOS_Example-dummy.m in Sources */,
+				567D21D72180EA03BE60232E5BF5DC2E /* GoxUtils.m in Sources */,
+				17CE0A5C8CB7583AE4412E64DCB6E0F3 /* GTGoxImporterUtil.m in Sources */,
+				29019CA757547E241EBEDB56FD4B3D07 /* GTVAST.m in Sources */,
+				DCC8E56CC00874ACA26FD10EC7E3290E /* GTVMAP.m in Sources */,
+				2E54F41FED0589F222DFCB96CFCEE975 /* GXAdManager.m in Sources */,
+				8A9BEF76DF9021BB13A86AE2044370D8 /* GXADPlayer.m in Sources */,
+				8D1B40555217BF8FCD630387F6AC4023 /* GXPlayerView.m in Sources */,
+				78EE820E278C7D14A222D8F77AF2DB3E /* NSString+GNSURLEncodedString.m in Sources */,
+				88DB5AAD42E3F3E649C777B7BF9B310B /* NSString+InvalidChar.m in Sources */,
+				4BCD75DB6F2D5305354C514DC779F703 /* NSURL+URLParameters.m in Sources */,
+				C89F1833EA014B26A7CA37EA8AE3C908 /* Statistics.m in Sources */,
+				D5F881E873572558B6AE076F4BBA28F0 /* UIColor+HexColors.m in Sources */,
+				E5472C96712CCACE2CDE85169568C73E /* VRiX.m in Sources */,
+				335C17981BFC391AA1B00DB95407BC49 /* VRiX_iOS-dummy.m in Sources */,
+				7F10BB6B732905231E43A87C77CFD16E /* VRiXManager.m in Sources */,
+				CE78B21E7A37E4A4B5C549C567E01238 /* XMLDictionary.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CF6980256D419841131B71ECC6CEDE5C /* Sources */ = {
+		EE210BFC37CDBA0645C09C3819F41723 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F65525B66E0ED5B2D0D62956A678198 /* GoxUtils.m in Sources */,
-				39D794984E4553B6285A19054B6A23BC /* GTGoxImporterUtil.m in Sources */,
-				467820606B7C302C3E35C6709C2F2BA8 /* GTVAST.m in Sources */,
-				1F20D064DCD130836741CEF0BB0F1954 /* GTVMAP.m in Sources */,
-				5BFB492BFDF4217B5826792D0ECEC754 /* GXAdManager.m in Sources */,
-				B78A95E96D665E57DE1C13EE0DD4EC40 /* GXADPlayer.m in Sources */,
-				3A911EC46F5EE733E2C0978FC8A023E6 /* GXPlayerView.m in Sources */,
-				9286FF205559A5955B0744EA155DF091 /* NSString+GNSURLEncodedString.m in Sources */,
-				4AD1A45C11B27E10CD89D7CFB0F9A51F /* NSString+InvalidChar.m in Sources */,
-				12E98F891D8C585D4CEBC19C426B492C /* NSURL+URLParameters.m in Sources */,
-				872212983B7276062C815C62D02E0F82 /* Statistics.m in Sources */,
-				3150CBDD0A6673D81BEF9F2EC3CB715F /* UIColor+HexColors.m in Sources */,
-				F168B47FA4F70007C13CD0759634F72B /* VRiX.m in Sources */,
-				A5B0A0882B839019533DA7B1911FC392 /* VRiX_iOS-dummy.m in Sources */,
-				F419331A24C2837F28B90C295EF93760 /* VRiXManager.m in Sources */,
-				CE075F30130AD3F2861C8303A5A43CBE /* XMLDictionary.m in Sources */,
+				7C67CBD15D9B5D0B7769B2F469478332 /* FBSnapshotTestCase.m in Sources */,
+				5BE525FF6FA14B999ED2CCC0AA4FA0CF /* FBSnapshotTestCase-dummy.m in Sources */,
+				30D475DF57C0C682A723231E7BCA0D14 /* FBSnapshotTestCasePlatform.m in Sources */,
+				C390C6005353FB986CB52F474CEF8588 /* FBSnapshotTestController.m in Sources */,
+				2975A09730FD83DC0897129A11EA6585 /* SwiftSupport.swift in Sources */,
+				74339C58AC4E5631FB8C0E662668A796 /* UIApplication+StrictKeyWindow.m in Sources */,
+				B52281F9F4340D4FC8ABB2FEB1FEC08E /* UIImage+Compare.m in Sources */,
+				CA54C09A12400567AFFCB407EEB7E154 /* UIImage+Diff.m in Sources */,
+				2CB61F6FA511CAACB43A50DC3A82E0DD /* UIImage+Snapshot.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		064424C10BC25519E3232F10C5DF3808 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FBSnapshotTestCase;
-			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
-			targetProxy = 963D2810B8B891DA59A76908657FD927 /* PBXContainerItemProxy */;
-		};
-		8E8BD276007E325610290E782C039DF2 /* PBXTargetDependency */ = {
+		521AE8BEB6A6BE4B98738A0CB80F7244 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-VRiX_iOS_Example";
 			target = 1FA1CD580865994D8462F48377C6ECC0 /* Pods-VRiX_iOS_Example */;
-			targetProxy = CE8E4CCBC4069BC5D282FE4A03ED5A3E /* PBXContainerItemProxy */;
+			targetProxy = 4B606DAC9A16578F89E9FF74961E702D /* PBXContainerItemProxy */;
 		};
-		8FFE720E558F972CC7D7D05C071604E2 /* PBXTargetDependency */ = {
+		E20606F96B2D87C59CFC21F02FF0EFC9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = VRiX_iOS;
 			target = 0E2F1989693080D02B55D10EDEFE78B7 /* VRiX_iOS */;
-			targetProxy = A317AD922EBD2EE69D21860A62BBAB27 /* PBXContainerItemProxy */;
+			targetProxy = 182EC0FCD855B9D16A90B042DAD86787 /* PBXContainerItemProxy */;
+		};
+		FBFF2D2BD308FE2A72D251AC1A1CEBDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
+			targetProxy = F555C477D7DAC6CB46A6BB13F24C0A9A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0CF977E736A9F0297ED689DCD07C3E1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -863,70 +894,9 @@
 			};
 			name = Debug;
 		};
-		3E39A517897BFCDD1DD7268CB1B69BE9 /* Debug */ = {
+		6D06CD089B3DD409B897DA3A9135DC1B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
-				PRODUCT_NAME = FBSnapshotTestCase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4420B389A884A83733DF2E15BD09500C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 278E3D0F91DEB38950578B8F22FCEE45 /* VRiX_iOS.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/VRiX_iOS/VRiX_iOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/VRiX_iOS/VRiX_iOS-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/VRiX_iOS/VRiX_iOS.modulemap";
-				PRODUCT_MODULE_NAME = VRiX_iOS;
-				PRODUCT_NAME = VRiX_iOS;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		52D4558D43E0DD20AA90942F2A3D5B0E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE6A72570F646D960E42E39FDE89A142 /* Pods-VRiX_iOS_Tests.debug.xcconfig */;
+			baseConfigurationReference = 51315B31E836381F13D8FA35F25EEBCB /* Pods-VRiX_iOS_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -951,42 +921,13 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		71AA2D08A0F086848A6C19190B330E10 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 64C1E3C1DDC77EDBFC58ECB457036D06 /* VRiX_iOS.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/VRiX_iOS/VRiX_iOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/VRiX_iOS/VRiX_iOS-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/VRiX_iOS/VRiX_iOS.modulemap";
-				PRODUCT_MODULE_NAME = VRiX_iOS;
-				PRODUCT_NAME = VRiX_iOS;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9C45626F0173E5857D810249ADC7A7AE /* Release */ = {
+		7F18E8FF07DD29A5DB58F18741676F7F /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 930697F74777C0B675352F5FDBB02002 /* Pods-VRiX_iOS_Example.release.xcconfig */;
 			buildSettings = {
@@ -1019,9 +960,40 @@
 			};
 			name = Release;
 		};
-		BF531801B332EDF71FA8F4F9667B86BC /* Release */ = {
+		7FAB018962491C901084CEE32D1AFEB7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */;
+			baseConfigurationReference = 278E3D0F91DEB38950578B8F22FCEE45 /* VRiX_iOS.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VRiX_iOS/VRiX_iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VRiX_iOS/VRiX_iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VRiX_iOS/VRiX_iOS.modulemap";
+				PRODUCT_MODULE_NAME = VRiX_iOS;
+				PRODUCT_NAME = VRiX_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		842C60C4F1EBC85F9C8FF97D39D120FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1044,11 +1016,72 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
+		};
+		882A138DFC81AE69D878DC74ED9ADA37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE6A72570F646D960E42E39FDE89A142 /* Pods-VRiX_iOS_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VRiX_iOS_Tests/Pods-VRiX_iOS_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VRiX_iOS_Tests/Pods-VRiX_iOS_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ADB5C22D4E9317397F46DA964B05B78D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64C1E3C1DDC77EDBFC58ECB457036D06 /* VRiX_iOS.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VRiX_iOS/VRiX_iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VRiX_iOS/VRiX_iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VRiX_iOS/VRiX_iOS.modulemap";
+				PRODUCT_MODULE_NAME = VRiX_iOS;
+				PRODUCT_NAME = VRiX_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1112,40 +1145,7 @@
 			};
 			name = Release;
 		};
-		CC80EABE0A7CF6104BC25B8A1AD46F26 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 51315B31E836381F13D8FA35F25EEBCB /* Pods-VRiX_iOS_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-VRiX_iOS_Tests/Pods-VRiX_iOS_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-VRiX_iOS_Tests/Pods-VRiX_iOS_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F3D1096513D02025C6477B4FFF797422 /* Debug */ = {
+		F1D43D27D20280C9A148DCD0DDB8DA5E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B6F6837D58F07EE7C4EE8EEF894229A8 /* Pods-VRiX_iOS_Example.debug.xcconfig */;
 			buildSettings = {
@@ -1180,6 +1180,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		06F58344982AD10FBEC656C937F39DFA /* Build configuration list for PBXNativeTarget "Pods-VRiX_iOS_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				882A138DFC81AE69D878DC74ED9ADA37 /* Debug */,
+				6D06CD089B3DD409B897DA3A9135DC1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28DAA9880679133EC375B7072B9AEABB /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842C60C4F1EBC85F9C8FF97D39D120FF /* Debug */,
+				0CF977E736A9F0297ED689DCD07C3E1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1189,38 +1207,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		777F5DAEB63B2CD3300CD4A832103FF6 /* Build configuration list for PBXNativeTarget "Pods-VRiX_iOS_Tests" */ = {
+		B8E1F0C9800FBBCD7F422701D8A975D9 /* Build configuration list for PBXNativeTarget "Pods-VRiX_iOS_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				52D4558D43E0DD20AA90942F2A3D5B0E /* Debug */,
-				CC80EABE0A7CF6104BC25B8A1AD46F26 /* Release */,
+				F1D43D27D20280C9A148DCD0DDB8DA5E /* Debug */,
+				7F18E8FF07DD29A5DB58F18741676F7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		93D543EBE34F7109D8E50CC86C17B16C /* Build configuration list for PBXNativeTarget "VRiX_iOS" */ = {
+		D0F524284E4B32CADA64B8FBAE722DE3 /* Build configuration list for PBXNativeTarget "VRiX_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				71AA2D08A0F086848A6C19190B330E10 /* Debug */,
-				4420B389A884A83733DF2E15BD09500C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3E39A517897BFCDD1DD7268CB1B69BE9 /* Debug */,
-				BF531801B332EDF71FA8F4F9667B86BC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B20E9BE662259AB9676065877A014702 /* Build configuration list for PBXNativeTarget "Pods-VRiX_iOS_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F3D1096513D02025C6477B4FFF797422 /* Debug */,
-				9C45626F0173E5857D810249ADC7A7AE /* Release */,
+				ADB5C22D4E9317397F46DA964B05B78D /* Debug */,
+				7FAB018962491C901084CEE32D1AFEB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

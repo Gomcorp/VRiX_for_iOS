@@ -144,6 +144,8 @@ static NSString *GTSystemInfo(const char *name)
     if(url != nil)
     {
         NSMutableURLRequest* request = [NSMutableURLRequest requestWithURL:url];
+        NSLog(@"Click Tracking: %@", url.absoluteString);
+        
 //        [request setValue:[[self class] userAgent] forHTTPHeaderField:@"User-Agent"];
         [request addValue:identifierForAdvertising() forHTTPHeaderField:GTGoxHeaderKeyAAID];
         

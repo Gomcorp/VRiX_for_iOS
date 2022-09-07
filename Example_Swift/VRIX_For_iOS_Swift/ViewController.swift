@@ -37,14 +37,9 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        
-//        self.vrixManager = VRiXManager(key: <#T##String!#>, hashKey: <#T##String!#>)
+
         self.vrixManager = VRiXManager(key: VRIX_KEY, hashKey: VRIX_HASHKEY)
-        
-//        if self.vrixManager == nil {
-//
-//        }
+
         self.isFetchedData = false
         self.progressView .setProgress(0, animated: false)
     }
@@ -97,7 +92,6 @@ class ViewController: UIViewController {
                 self.adView.isHidden = false
                 self.controlView.isHidden = true
                 
-//                self.vrixManager?.preroll(at: <#T##UIView!#>, completionWithResult: <#T##((String?, Int, [[AnyHashable : Any]]?) -> Void)!##((String?, Int, [[AnyHashable : Any]]?) -> Void)!##(String?, Int, [[AnyHashable : Any]]?) -> Void#>)
                 self.vrixManager?.preroll(at: self.adView, completionWithResult: { (adNames ,count, userInfos) in
 
                     print("%@", adNames!)
@@ -116,8 +110,7 @@ class ViewController: UIViewController {
         let currentTime: Float64! = CMTimeGetSeconds(self.player?.currentTime() ?? CMTime.zero)
         if let midrollCount = self.vrixManager?.midrollCount() {
             if midrollCount > 0 {
-//                self.vrixManager?.midroll(at: <#T##UIView!#>, timeOffset: <#T##TimeInterval#>, progressHandler: <#T##((Bool, GXAdBreakType, NSAttributedString?) -> Void)!##((Bool, GXAdBreakType, NSAttributedString?) -> Void)!##(Bool, GXAdBreakType, NSAttributedString?) -> Void#>, completionHandler: <#T##((GXAdBreakType) -> Void)!##((GXAdBreakType) -> Void)!##(GXAdBreakType) -> Void#>)
-                
+
                 self.vrixManager?.midroll(at: self.adView, timeOffset: currentTime, progressHandler: { (start, breakType, message) in
                     
                     if message != nil && breakType == GXAdBreakTypelinear {
@@ -151,7 +144,6 @@ class ViewController: UIViewController {
                 self.adView.isHidden = false
                 self.controlView.isHidden = true
                 
-//                self.vrixManager?.postroll(at: <#T##UIView!#>, completionHandler: <#T##((Bool, Any?) -> Void)!##((Bool, Any?) -> Void)!##(Bool, Any?) -> Void#>)
                 self.vrixManager?.postroll(at: self.adView, completionHandler: { (success, userInfo) in
                     self.vrixManager = nil
                     self.isFetchedData = false
@@ -181,13 +173,18 @@ class ViewController: UIViewController {
     
     //MARK: Button Handler
     
+    @IBAction func reload(_ sender: Any) {
+        self.isFetchedData = false
+        self.playButtonTouched(self)
+    }
+    
     @IBAction func playButtonTouched(_ sender: Any?) {
         if self.vrixManager != nil && self.isFetchedData == false {
 //            self.registAdNotification()
             let urlString: NSString = VRIX_URL as NSString
             let encodedUrl: NSString = urlString.replacingOccurrences(of: "|", with: "|".addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed) ?? VRIX_URL) as NSString
             let encodedUrls: String = encodedUrl as String
-//            self.vrixManager?.fetchVRiX(<#T##url: URL!##URL!#>, completionHandler: <#T##((Bool, Error?) -> Void)!##((Bool, Error?) -> Void)!##(Bool, Error?) -> Void#>)
+            
             self.vrixManager?.fetchVRiX(URL.init(string: encodedUrls), completionHandler: { (success, error) in
                 self.isFetchedData = true;
                 if success == true {

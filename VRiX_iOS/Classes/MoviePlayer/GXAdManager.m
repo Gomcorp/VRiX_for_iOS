@@ -1108,10 +1108,13 @@
             //            [self GX_sendTracking:skipTracking];
             
             // click tracking
-            NSURL *trackURL = [self GX_makeClickTrackingURL:button.icon.iconClickTracking];
-            if (trackURL != nil)
+            for(int trackCount = 0; trackCount < button.icon.iconClickTracking.count ; trackCount++)
             {
-                [[Statistics sharedStatistics] sendStatisticToURL:trackURL];
+                NSURL *trackURL = [self GX_makeClickTrackingURL:button.icon.iconClickTracking[trackCount]];
+                if(trackURL != nil)
+                {
+                    [[Statistics sharedStatistics] sendStatisticToURL:trackURL];
+                }
             }
             
             _didFinishedPlaybackBySkip = YES;
@@ -1125,12 +1128,13 @@
     else if([button.icon.program isEqualToString:GXBUTTON_PROGRAM_ACTION_TYPE_SKIP_DESC])
     {
         // click tracking
-        NSURL *trackURL = [self GX_makeClickTrackingURL:button.icon.iconClickTracking];
-        if (trackURL != nil)
-        {
-            [[Statistics sharedStatistics] sendStatisticToURL:trackURL];
+        for(int trackCount = 0 ; trackCount < button.icon.iconClickTracking.count ; trackCount++) {
+            NSURL * trackURL = [self GX_makeClickTrackingURL:button.icon.iconClickTracking[trackCount]];
+            if (trackURL != nil)
+            {
+                [[Statistics sharedStatistics] sendStatisticToURL:trackURL];
+            }
         }
-        
         
         // click through
         NSURL *url = [NSURL URLWithString:button.icon.iconClickThrough];
@@ -1147,12 +1151,9 @@
                 if (@available(iOS 11.0, *)) {
                     [[UIApplication sharedApplication] openURL:url];
                 }
-                
             }
         }
-        
-        //do nothing...
-        
+        //do nothing..
     }
     else
     {
@@ -1174,10 +1175,13 @@
             
             
             // click tracking
-            NSURL *trackURL = [self GX_makeClickTrackingURL:button.icon.iconClickTracking];
-            if (trackURL != nil)
-            {
-                [[Statistics sharedStatistics] sendStatisticToURL:trackURL];
+            NSURL *trackURL;
+            for(int trackCount = 0 ; trackCount < button.icon.iconClickTracking.count ; trackCount++) {
+                trackURL = [self GX_makeClickTrackingURL:button.icon.iconClickTracking[trackCount]];
+                if (trackURL != nil)
+                {
+                    [[Statistics sharedStatistics] sendStatisticToURL:trackURL];
+                }
             }
             
             
