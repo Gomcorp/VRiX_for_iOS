@@ -1185,7 +1185,12 @@ static NSInteger const          _nonlinearNumberOfAttributesImporterUtil;
     _iconClickThrough = [iconElement valueForKeyPath:keyPath];
 
     keyPath = GTVASTElementIconClicks@"."GTVASTElementIconClickTracking;
-    _iconClickTracking = [iconElement valueForKeyPath:keyPath];
+    if([[iconElement valueForKeyPath:keyPath] isKindOfClass: [NSString class]]) {
+        _iconClickTracking = [[NSArray alloc] initWithObjects:[iconElement valueForKeyPath:keyPath], nil];
+    }
+    else if([[iconElement valueForKeyPath:keyPath] isKindOfClass:[NSArray class]]) {
+        _iconClickTracking = [iconElement valueForKeyPath:keyPath];
+    }
     
     return YES;
 }
