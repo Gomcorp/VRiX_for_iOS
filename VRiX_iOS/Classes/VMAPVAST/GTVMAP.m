@@ -28,17 +28,17 @@
 
 static GTGoxImporterUtil const  _vmapAttributesImporterUtil[];
 static NSInteger const          _vmapNumberOfAttributesImporterUtil;
-static GTGoxImporterUtil const  _vmapElementImportUtil[];
+static GTGoxImporter2Util const  _vmapElementImportUtil[];
 static NSInteger const          _vmapNumberOfElementImportUtil;
 
 static GTGoxImporterUtil const  _adBreakAttributesImporterUtil[];
 static NSInteger const          _adBreakNumberOfAttributesImporterUtil;
-static GTGoxImporterUtil const  _adBreakElementImportUtil[];
+static GTGoxImporter2Util const  _adBreakElementImportUtil[];
 static NSInteger const          _adBreakNumberOfElementImportUtil;
 
 static GTGoxImporterUtil const  _adSourceAttributesImporterUtil[];
 static NSInteger const          _adSourceNumberOfAttributesImporterUtil;
-static GTGoxImporterUtil const  _adSourceElementImportUtil[];
+static GTGoxImporter2Util const  _adSourceElementImportUtil[];
 static NSInteger const          _adSourceNumberOfElementImportUtil;
 
 static GTGoxImporterUtil const  _adTagURIAttributesImporterUtil[];
@@ -46,7 +46,7 @@ static NSInteger const          _adTagURINumberOfAttributesImporterUtil;
 
 static GTGoxImporterUtil const  _adDataAttributesImporterUtil[];
 static NSInteger const          _adDataNumberOfAttributesImporterUtil;
-static GTGoxImporterUtil const  _adDataElementImportUtil[];
+static GTGoxImporter2Util const  _adDataElementImportUtil[];
 static NSInteger const          _adDataNumberOfElementImportUtil;
 
 @interface GTNodeObject ()
@@ -159,7 +159,7 @@ static NSInteger const          _adDataNumberOfElementImportUtil;
     
     for(NSInteger index = 0; index < _vmapNumberOfElementImportUtil; index++)
     {
-        GTGoxImporterUtil importerUtil = _vmapElementImportUtil[index];
+        GTGoxImporter2Util importerUtil = _vmapElementImportUtil[index];
         for(id element in [vmapElement arrayValueForKeyPath:importerUtil.attributeName])
         {
             importerUtil.setter(self, importerUtil.propertyName, importerUtil.converter(element));
@@ -324,7 +324,7 @@ static NSInteger const          _adDataNumberOfElementImportUtil;
     
     for(NSInteger index = 0; index < _adBreakNumberOfElementImportUtil; index++)
     {
-        GTGoxImporterUtil importerUtil = _adBreakElementImportUtil[index];
+        GTGoxImporter2Util importerUtil = _adBreakElementImportUtil[index];
         for(id element in [vmapElement arrayValueForKeyPath:importerUtil.attributeName])
         {
             importerUtil.setter(self, importerUtil.propertyName, importerUtil.converter(element));
@@ -414,7 +414,7 @@ static NSInteger const          _adDataNumberOfElementImportUtil;
     
     for(NSInteger index = 0; index < _adSourceNumberOfElementImportUtil; index++)
     {
-        GTGoxImporterUtil importerUtil = _adSourceElementImportUtil[index];
+        GTGoxImporter2Util importerUtil = _adSourceElementImportUtil[index];
         for(id element in [vmapElement arrayValueForKeyPath:importerUtil.attributeName])
         {
             importerUtil.setter(self, importerUtil.propertyName, importerUtil.converter(element));
@@ -505,7 +505,7 @@ static NSInteger const          _adDataNumberOfElementImportUtil;
     
     for(NSInteger index = 0; index < _adDataNumberOfElementImportUtil; index++)
     {
-        GTGoxImporterUtil importerUtil = _adDataElementImportUtil[index];
+        GTGoxImporter2Util importerUtil = _adDataElementImportUtil[index];
         for(id element in [vmapElement arrayValueForKeyPath:importerUtil.attributeName])
         {
             importerUtil.setter(self, importerUtil.propertyName, importerUtil.converter(element));
@@ -526,7 +526,7 @@ static GTGoxImporterUtil const _vmapAttributesImporterUtil[] =
 };
 static NSInteger const _vmapNumberOfAttributesImporterUtil = sizeof(_vmapAttributesImporterUtil) / sizeof(_vmapAttributesImporterUtil[0]);
 
-static GTGoxImporterUtil const _vmapElementImportUtil[] =
+static GTGoxImporter2Util const _vmapElementImportUtil[] =
 {
     { GTVMAPElementAdBreak,          GTVMAPPropertyAdBreak,           GTGoxAddObject,           GTVMAPAdBreakFromNode },
 };
@@ -546,7 +546,7 @@ static GTGoxImporterUtil const  _adBreakAttributesImporterUtil[] =
 
 static NSInteger const          _adBreakNumberOfAttributesImporterUtil = sizeof(_adBreakAttributesImporterUtil) / sizeof(_adBreakAttributesImporterUtil[0]);
 
-static GTGoxImporterUtil const  _adBreakElementImportUtil[] =
+static GTGoxImporter2Util const  _adBreakElementImportUtil[] =
 {
     { GTVMAPElementAdSource,          GTVMAPPropertyAdSource,        GTGoxSetValue,                 GTVMAPAdSourceFromNode },
 };
@@ -563,7 +563,7 @@ static GTGoxImporterUtil const  _adSourceAttributesImporterUtil[] =
 };
 static NSInteger const          _adSourceNumberOfAttributesImporterUtil = sizeof(_adSourceAttributesImporterUtil) / sizeof(_adSourceAttributesImporterUtil[0]);
 
-static GTGoxImporterUtil const  _adSourceElementImportUtil[] =
+static GTGoxImporter2Util const  _adSourceElementImportUtil[] =
 {
     { GTVMAPElementVASTAdData,      GTVMAPPropertyAdVASTAdData,             GTGoxSetValue,            GTVMAPVASTAdDataFromNode },
     { GTVMAPElementAdTagURI,        GTVMAPPropertyAdTagURI,                 GTGoxSetValue,            GTVMAPAdTagURIFromNode },
@@ -589,7 +589,7 @@ static GTGoxImporterUtil const  _adDataAttributesImporterUtil[] =
     
 };
 static NSInteger const          _adDataNumberOfAttributesImporterUtil = sizeof(_adDataAttributesImporterUtil) / sizeof(_adDataAttributesImporterUtil[0]);
-static GTGoxImporterUtil const  _adDataElementImportUtil[] =
+static GTGoxImporter2Util const  _adDataElementImportUtil[] =
 {
     { GTVMAPElementVAST,      GTVMAPPropertyVAST,        GTGoxSetValue,                          GTVMAPVASTFromNode },    
 };

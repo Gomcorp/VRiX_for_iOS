@@ -26,7 +26,7 @@
 #define GTVMAPCurrentEncoding NSUTF8StringEncoding
 static GTGoxImporterUtil const  _vastAttributesImporterUtil[];
 static NSInteger const          _vastNumberOfAttributesImporterUtil;
-static GTGoxImporterUtil const  _vastElementImportUtil[];
+static GTGoxImporter2Util const  _vastElementImportUtil[];
 static NSInteger const          _vastNumberOfElementImportUtil;
 
 static GTGoxImporterUtil const  _vastAdAttributesImporterUtil[];
@@ -97,7 +97,7 @@ static NSInteger const          _nonlinearNumberOfAttributesImporterUtil;
     
     for(NSInteger index = 0; index < _vastNumberOfElementImportUtil; index++)
     {
-        GTGoxImporterUtil importerUtil = _vastElementImportUtil[index];
+        GTGoxImporter2Util importerUtil = _vastElementImportUtil[index];
         for(id element in [vastElement arrayValueForKeyPath:importerUtil.attributeName])
         {
             importerUtil.setter(self, importerUtil.propertyName, importerUtil.converter(element));
@@ -1316,7 +1316,7 @@ static GTGoxImporterUtil const _vastAttributesImporterUtil[] =
 };
 static NSInteger const _vastNumberOfAttributesImporterUtil = sizeof(_vastAttributesImporterUtil) / sizeof(_vastAttributesImporterUtil[0]);
 
-static GTGoxImporterUtil const _vastElementImportUtil[] =
+static GTGoxImporter2Util const _vastElementImportUtil[] =
 {
     { GTVMAPElementAd,          GTVASTPropertyAdList,           GTGoxAddObject,           GTVASTAdFromNode },
 };
