@@ -15,12 +15,23 @@ struct GTGoxImporterUtil
     __unsafe_unretained NSString*       propertyName;
     
     void (*setter)(id, NSString*, id);
+//    id (*converter)(NSDictionary*);
+    id (*converter)(NSString*);
+};
+
+struct GTGoxImporter2Util
+{
+    __unsafe_unretained NSString*       attributeName;
+    __unsafe_unretained NSString*       propertyName;
+    
+    void (*setter)(id, NSString*, id);
     id (*converter)(NSDictionary*);
 };
 
 SEL GTSelecterFromKey(NSString* key);
 
 typedef struct GTGoxImporterUtil GTGoxImporterUtil;
+typedef struct GTGoxImporter2Util GTGoxImporter2Util;
 
 void GTGoxSetValue(id owner, NSString* key, id value);
 void GTGoxAddObject(id owner, NSString* key, id value);
